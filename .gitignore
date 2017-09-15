@@ -1,0 +1,27 @@
+#Exclude all:
+#########
+*
+!*/
+!.gitignore
+
+#Do NOT ignore VHDL, Verilog, block diagrams, and EDIF files files
+!*.vhd
+!*.v
+!*.bd
+!*.edif
+
+
+#########
+#Reports
+#########
+!*.rpt
+!*.txt
+!*.vdi
+#########
+#C-files
+#########
+!*.c
+!*.h
+!*.elf
+!*.bmm
+!*.xmp
